@@ -1,0 +1,19 @@
+{
+  "namespace": "io.github.muriloI.avro",
+  "type": "record",
+  "name": "OrderAvro",
+  "fields": [
+    {
+      "name": "customerName",
+      "type": "string"
+    },
+    {
+      "name": "product",
+      "type": "string"
+    },
+    {
+      "name": "quantity",
+      "type": "int"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "namespace": "io.github.muriloI.avro",
+  "type": "record",
+  "name": "TruckLocationAvro",
+  "fields": [
+    {
+      "name": "truckId",
+      "type": "int",
+    },
+    {
+      "name": "longitude",
+      "type": "double"
+    },
+    {
+      "name": "latitude",
+      "type": "double"
+    }
+  ]
+}
